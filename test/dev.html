@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>title</title>
+	<meta charset="utf-8">
+	<script type="text/javascript" src="../dist/bside.js"></script>
+</head>
+<body>
+	<div id="test" bs-onclick="changeMessage | .button">
+		<p bs-text="msg | capitalize"></p>
+		<p bs-show="something">Y0Y0Y0</p>
+		<p class="button" bs-text="msg"></p>
+		<p bs-class-red="error" bs-text="hello"></p>
+	</div>
+	<script type="text/javascript">
+		var BSide = require('bside');
+		var app = BSide.create({
+			id: 'test',
+			// template
+			scope: {
+				msg: 'hello',
+				hello: 'WffHW',
+				changeMessage: function () {
+					app.scope.msg = 'hola'
+				}
+			}
+		})
+	</script>
+</body>
+</html>

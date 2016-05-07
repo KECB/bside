@@ -1,13 +1,14 @@
 {
-	"eqeqeq": true,
-	"browser": true,
-	"asi": true,
-	"multistr": true,
-	"undef": true,
-	"unused": true,
-	"trailing": true,
-	"sub": true,
-	"node": true,
+	"eqeqeq": true,//强制使用===号
+	"browser": true,//
+	"asi": true,//
+	"multistr": true,//检查多行字符串
+	"undef": true,//变量未定义
+	"unused": true,//变量未使用
+	"trailing": true,//
+	"sub": true,//
+	"node": true,//
+	"laxbreak": true,//
 	"globals": {
 		"console": true
 	}
