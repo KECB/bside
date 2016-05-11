@@ -1,12 +1,15 @@
 # Bside
-Happy JavaScript Framework
-Wanna learn JavaScript through write a JS Framework by myself.
-First read VueJS from its first commit, and copy that to my repo, plan to use two months to do that.
-## This framework will cover following parts
-1. Selector Engine
-2. Events
-3. Ajax
-4. Animations
-5. Touch
-6. Test
-7. DataBinding
+Learn JavaScript data structure and algorithm.
+## This will cover following parts
+1. List
+2. Stacks
+3. Queues
+4. Linked Lists
+5. Dictionaries
+6. Hashing
+7. Sets
+8. Binary Trees and Binary Search Trees
+9. Graphs and Graph Algorithms
+10. Sorting Algorithms
+11. Searching Algorithms
+12. Advanced Algorithms
